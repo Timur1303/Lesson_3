@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_green"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".ui.state.PostChangeFragment">
+
+    <EditText
+        android:id="@+id/et_title_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_medium"
+        android:textColor="@color/white"
+        android:hint="Your title"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/et_content_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_medium"
+        android:textColor="@color/white"
+        android:hint="Your content"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/et_user_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_medium"
+        android:textColor="@color/white"
+        android:hint="Your user"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/et_group_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_medium"
+        android:textColor="@color/white"
+        android:hint="Your group"
+        android:textColorHint="@color/white"/>
+
+    <Button
+        android:id="@+id/btnChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:layout_gravity="end"
+        android:text="change"
+        android:fontFamily="@font/montserrat_bold"/>
+
+</LinearLayout>

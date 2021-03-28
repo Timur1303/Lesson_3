@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_frag"
+    app:startDestination="@id/userFragment">
+
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="kg.geektech.anroid3.lesson_3.ui.state.PostFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" />
+    <fragment
+        android:id="@+id/userDetailFragment"
+        android:name="kg.geektech.anroid3.lesson_3.ui.state.PostDetailFragment"
+        android:label="fragment_user_detail"
+        tools:layout="@layout/fragment_user_detail" />
+    <fragment
+        android:id="@+id/postChangeFragment"
+        android:name="kg.geektech.anroid3.lesson_3.ui.state.PostChangeFragment"
+        android:label="fragment_post_change"
+        tools:layout="@layout/fragment_post_change" />
+</navigation>
